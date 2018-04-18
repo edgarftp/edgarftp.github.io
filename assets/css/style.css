@@ -45,18 +45,11 @@ body {
     padding: 20px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: width .1s;
 }
-
-@keyframes name-back {
-    0% {background-color: #4aaaa5; color: #cccccc;}
-    50% {background-color: #cccccc; color: #4aaaa5}
-    100% {background-color: #4aaaa5; color: #cccccc;}
-}
-
 
 #name:hover {
-    animation-name: name-back;
-    animation-duration: .5s;
+    width: 25%;
 }
 
 .menu-links  {
