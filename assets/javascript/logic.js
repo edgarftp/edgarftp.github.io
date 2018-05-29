@@ -43,9 +43,9 @@ $(document).ready(function (){
                 $("#" + id).addClass("active");
             }else {
                 var page = ("#" + pagesId[i]);
-                console.log(page);
                 $(page).addClass("hide");
                 $(page + "Link").removeClass("active");
+                console.log(page + "Link");
             }
         }
     }
@@ -78,7 +78,8 @@ $(document).ready(function (){
 
 
     $(document.body).on("click", ".pageLink", function() {
-        var id = $(this).id;
+        var id = this.id;
+        console.log(id);
         var idHolder = $(this).attr("data-page");
         if (id != currentPage){
             display_page(id, idHolder);

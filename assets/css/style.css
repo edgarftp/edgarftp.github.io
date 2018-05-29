@@ -31,7 +31,7 @@ body {
 }
 
 .active {
-    text-decoration: overline double #4aaaa5;
+    text-decoration: overline double #4aaaa5 !important;
     color: #7c7c7d !important;
 }
 
