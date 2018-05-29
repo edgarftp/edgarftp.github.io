@@ -1,43 +1,127 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
 
-    <title>About</title>
-    <link rel="icon" href="assets/images/favicon.ico" type="image/gif" sizes="16x16">  
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A B O U T</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
-    <body>
-        <div class="header">
-            <ul class="menu">
-                <div class="clearfix">
-                    <h1><li id="name">Edgar Salinas</li></h1>
-                    <li class="menu-links contact"><a href="contact.html">Contact</a></li>
-                    <li class="menu-links">|</li>
-                    <li class="menu-links porftolio"><a href="portfolio.html">Portfolio</a></li>      
-                    <li class="menu-links">|</li>
-                    <li class="menu-links index"><a style="text-decoration: overline #4aaaa5 double"  href="index.html">About </style></a></li> </style>
-                </div>  
-            </ul>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container pb-0 mb-0 pl-0 pr-0">
+            <div class="col-12 col-sm-12 col-lg-8">
+                <a class="navbar-brand col-12 col-sm-12 col-lg-4 p-2" href="#">Edgar Salinas</a>
+                <button class="navbar-toggler col-12 col-sm-12" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse col-lg-4" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active text-center col-lg-4">
+                        <a class="nav-link pageLink active" data-page="homePage" id="aboutLink">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center col-lg-4">
+                        <a class="nav-link pageLink" data-page="portfolioPage" id="portfolioLink">Portfolio</a>
+                    </li>
+                    <li class="nav-item text-center col-lg-4">
+                        <a class="nav-link pageLink" data-page="contactPage" id="contactLink">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="homePage" class="row page">
+            <!-- row1 -->
+
+            <h2 class="col-12 text-left border-bottom mt-4 mb-4 pb-3 header-pages" id="header-port">About me</h2>
+
+            <!-- Row 2 -->
+
+            <div class="col-12 prefooter">
+                <img class="w-25 mr-3 float-left img-fluid img-thumbnail" src="https://i.imgur.com/Z9VHDrS.jpg" alt="">
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor justo, pharetra nec nulla consequat, imperdiet
+                    posuere massa. Sed sit amet augue sed nunc tincidunt fermentum sit amet a justo. Mauris lacus odio, venenatis
+                    nec augue sed, venenatis rutrum ex.
+                    <br>
+                    <br> Etiam eu ante sed enim vehicula dignissim. Donec semper nunc at erat malesuada luctus. Pellentesque
+                    ut rutrum sem, eu aliquam enim. Fusce ut finibus mauris. Aenean tincidunt sed nisi in semper. Aenean
+                    vel viverra leo.
+                    <br>
+                    <br> Curabitur eget diam dapibus, porta risus at, iaculis ante. Mauris non nisl at tellus volutpat ultricies
+                    vel semper sapien. Vivamus id pulvinar arcu. Donec faucibus nulla mi, id pharetra nisl venenatis aliquet.
+                    Vestibulum quis lacinia lectus. Morbi a tempus nisl, at aliquam est.
+                    <br>
+                    <br> Donec finibus suscipit nisi eget rutrum. Mauris nec tellus in tellus vehicula viverra quis et tellus.
+                    Praesent nunc dolor, blandit eget porttitor in, varius nec tortor. Suspendisse sit amet porta elit. Donec
+                    pellentesque, eros ac convallis maximus, arcu quam vehicula lectus, eu faucibus massa nisi quis lorem.
+                    Praesent et consequat mauris, eu iaculis justo. Maecenas convallis tempor congue.
+                    <br>
+                    <br> Donec finibus suscipit nisi eget rutrum. Mauris nec tellus in tellus vehicula viverra quis et tellus.
+                    Praesent nunc dolor, blandit eget porttitor in, varius nec tortor. Suspendisse sit amet porta elit. Donec
+                    pellentesque, eros ac convallis maximus, arcu quam vehicula lectus, eu faucibus massa nisi quis lorem.
+                    Praesent et consequat mauris, eu iaculis justo. Maecenas convallis tempor congue.
+                </p>
+            </div>
         </div>
 
-    <div class="main-text">
+        <div id="portfolioPage" class="row hide page">
 
-        <h2>About me</h2>
-            <div id="bio">
-                <img id="edgarimg" src="https://i.imgur.com/Z9VHDrS.jpg" alt="Edgar Photo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor justo, pharetra nec nulla consequat, imperdiet posuere massa. Sed sit amet augue sed nunc tincidunt fermentum sit amet a justo. Mauris lacus odio, venenatis nec augue sed, venenatis rutrum ex. 
-                    <br><br>
-                    Etiam eu ante sed enim vehicula dignissim. Donec semper nunc at erat malesuada luctus. Pellentesque ut rutrum sem, eu aliquam enim. Fusce ut finibus mauris. Aenean tincidunt sed nisi in semper. Aenean vel viverra leo.
-                    <br><br>
-                    Curabitur eget diam dapibus, porta risus at, iaculis ante. Mauris non nisl at tellus volutpat ultricies vel semper sapien. Vivamus id pulvinar arcu. Donec faucibus nulla mi, id pharetra nisl venenatis aliquet. Vestibulum quis lacinia lectus. Morbi a tempus nisl, at aliquam est.
-                    <br><br>
-                    Donec finibus suscipit nisi eget rutrum. Mauris nec tellus in tellus vehicula viverra quis et tellus. Praesent nunc dolor, blandit eget porttitor in, varius nec tortor. Suspendisse sit amet porta elit. Donec pellentesque, eros ac convallis maximus, arcu quam vehicula lectus, eu faucibus massa nisi quis lorem. Praesent et consequat mauris, eu iaculis justo. Maecenas convallis tempor congue.
-                </p>
-            </div> 
-    </div>  
+            <!-- Row 1 -->
 
-    <footer>Copyright ©</footer>
+            <h2 class="col-12 text-left border-bottom mt-4 mb-4 pb-3 header-pages">Portfolio</h2>
+
+            <!-- Row 2 -->
+
+            <div id="portImgHolder" class="row">
+                
+            </div>
+        </div>
+
+        <div id="contactPage" class="row hide page col-12">
+            <form class="col-12">
+                <div class="form-group col-12">
+                    <label for="Name">Name</label>
+                    <input type="Name" class="form-control col-12" id="Name" placeholder="John Smith">
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control col-12" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control col-12" id="Message" rows="3"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+
+
+        <footer class="d-flex fixed-bottom justify-content-center p-3 bg-secondary text-white">
+            Copyright ©
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+        <script src="assets/javascript/logic.js"></script>
 </body>
+
 </html>
